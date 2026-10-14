@@ -1,0 +1,146 @@
+# 💼 Ashby Scraper
+
+Ashby Scraper is a **free and open-source** scraper that gets you **unlimited** Ashby job data — every open role, salary and application form at companies like OpenAI, Notion and Ramp — for free.
+
+## ✨ What Can I Get?
+
+- 🏢 **Every open job at any company on Ashby** — OpenAI's 800+ roles in one call, with team, location & workplace type
+- 💰 **Real salary data** — base pay ranges, equity, bonus & commission, broken down per pay tier
+- 🔍 **Search up to 20 companies at once** — keyword, team, location, remote, posted date & minimum salary
+- 📝 **Full postings & application forms** — descriptions, deadlines and every question an application asks
+
+## 🎥 Example: A Full Ashby Job Posting
+
+```json
+{
+  "id": "e6981259-c1d0-46de-8376-56bde28cfb10",
+  "title": "Software Engineer, ChatGPT Infrastructure",
+  "link": "https://jobs.ashbyhq.com/openai/e6981259-c1d0-46de-8376-56bde28cfb10",
+  "apply_link": "https://jobs.ashbyhq.com/openai/e6981259-c1d0-46de-8376-56bde28cfb10/application",
+  "board": { "name": "OpenAI", "slug": "openai" },
+  "department": "Applied AI",
+  "team_path": ["Applied AI", "Applied AI Engineering"],
+  "employment_type": "full_time",
+  "workplace_type": "hybrid",
+  "location": { "name": "San Francisco", "city": "San Francisco", "region": "California", "country": "United States" },
+  "compensation": {
+    "summary": "$347K – $445K • Offers Equity",
+    "salary": { "min": 347000, "max": 445000, "currency": "USD", "interval": "year" },
+    "has_equity": true,
+    "philosophy": "The base pay offered may vary depending on multiple individualized factors, including market location, job-related knowledge, skills, and experience…"
+  },
+  "published_at": "2026-04-21T01:53:49Z",
+  "application": {
+    "field_count": 13,
+    "required_field_count": 11,
+    "has_survey": true,
+    "limit_notice": "Please Note: we have set up limits for applications across roles. Candidates may not apply more than 5 times in any 180 day span."
+  },
+  "description": "About the Team\n\nChatGPT is a rapidly evolving system: new capabilities ship continuously, product surfaces change quickly…"
+}
+```
+
+*Trimmed for readability.*
+
+## 🚀 Unlimited Free Ashby Data — Get It in 60 Seconds
+
+1️⃣ Clone and install:
+```bash
+git clone https://github.com/omkarcloud/ashby-scraper
+cd ashby-scraper
+python -m pip install -r requirements.txt
+```
+
+2️⃣ Start the API:
+```bash
+python run.py
+```
+
+3️⃣ Get your first data — every OpenAI job paying $300K or more:
+```bash
+curl "http://localhost:8000/jobs/list?board=openai&min_salary=300000"
+```
+
+```json
+{
+  "count": 454,
+  "per_page": 50,
+  "current_page": 1,
+  "total_pages": 10,
+  "next": "http://localhost:8000/jobs/list?board=openai&min_salary=300000&page=2",
+  "total_job_count": 805,
+  "jobs": [
+    {
+      "id": "096be63b-69cf-4295-9d29-d2e740058ea4",
+      "title": "Strategic Finance Partner, GPT Infra",
+      "link": "https://jobs.ashbyhq.com/openai/096be63b-69cf-4295-9d29-d2e740058ea4",
+      "team_path": ["Strategic Finance"],
+      "workplace_type": "hybrid",
+      "location": { "name": "San Francisco", "city": "San Francisco", "region": "California", "country": "United States" },
+      "compensation": {
+        "summary": "$293K – $325K • Offers Equity",
+        "salary": { "min": 293000, "max": 325000, "currency": "USD", "interval": "year" }
+      }
+    }
+  ]
+}
+```
+
+All 6 endpoints are now live at `http://localhost:8000`.
+
+## 📚 Endpoints
+
+6 endpoints cover everything you need.
+
+| Endpoint | Path | Returns |
+|---|---|---|
+| Company Jobs | `/jobs/list` | Every open job at a company, with salary, team and location filters |
+| Job Details | `/jobs/details` | One full posting: description, pay tiers, deadline and application summary |
+| Job Application Form | `/jobs/application-form` | Every application question with its type, options and required flag |
+| Search Jobs | `/jobs/search` | Open jobs across up to 20 companies in one call |
+| Company Details | `/boards/details` | Hiring profile: logo, website, team tree, jobs by department |
+| Find Company Board | `/boards/resolve` | A company's Ashby job board from its name or website |
+
+## 🔍 Exploring Parameters
+
+The same API is published on RapidAPI, and its playground is the easiest place to try parameters and see raw responses. Once a request looks right, run it locally for **unlimited free** data.
+
+1. [Subscribe to the free plan](https://rapidapi.com/OmkarCloud/api/best-ashby-scraper-free-1000-calls/pricing) — 1,000 calls/month, no credit card.
+2. [Try the endpoints in the playground](https://rapidapi.com/OmkarCloud/api/best-ashby-scraper-free-1000-calls/playground) — every param is pre-filled, so you see real data in one click.
+3. Copy the generated code and replace `https://best-ashby-scraper-free-1000-calls.p.rapidapi.com` with `http://localhost:8000`. It will now run against your local API.
+
+```python
+import requests
+
+# generated by the playground, host swapped for the local API
+response = requests.get(
+    "http://localhost:8000/jobs/search",
+    params={"boards": "openai,notion,perplexity", "query": "engineer", "remote": "true"},
+)
+print(response.json())
+```
+
+## 💬 Have Questions? We Have Answers.
+
+You're a developer — we know how hard completing a project can be. So we offer full support: just message us and we'll reply ✅ with a solution within 1 working day.
+
+[![Message Us on WhatsApp about Ashby Scraper](https://raw.githubusercontent.com/omkarcloud/assets/master/images/whatsapp-us.png)](https://api.whatsapp.com/send?phone=918178804274&text=I%20need%20help%20using%20the%20Ashby%20Scraper%20API.)
+
+[![Ask Us by Email about Ashby Scraper](https://raw.githubusercontent.com/omkarcloud/assets/master/images/ask-on-email.png)](mailto:happy.to.help@omkar.cloud?subject=Help%20with%20Ashby%20Scraper%20API&body=I%20need%20help%20using%20the%20Ashby%20Scraper%20API.)
+
+## ⚡ Popular Scrapers by Omkar Cloud
+
+- [**Google Maps Scraper (3,100+ GitHub Stars)**](https://github.com/omkarcloud/google-maps-scraper) — type "dentists in New York", get every business as a ready-to-call lead list: phones, emails, websites & reviews. Up to 100K free leads/month.
+- [**Lever Scraper**](https://github.com/omkarcloud/lever-scraper) — 61,000+ live jobs at 1,500+ Lever companies: salaries, teams & application forms
+- [**G2 Scraper**](https://www.omkar.cloud/tools/g2-scraper) — G2 product details, ratings & AI-found contacts
+- [**Website Email Contact Scraper**](https://www.omkar.cloud/tools/website-email-contact-scraper) — emails, phones & socials from any website
+- [**AliExpress Scraper**](https://www.omkar.cloud/tools/aliexpress-scraper) — live product details, SKU variants, stock & shipping
+- [**Booking Scraper**](https://www.omkar.cloud/tools/booking-scraper) — Booking.com hotels: prices, ratings, rooms & amenities
+
+## ⭐ Love It? [Star It ⭐!](https://github.com/omkarcloud/ashby-scraper)
+
+Star the repo ⭐ and become my star hero!
+
+It's just 1 click, but it means the world to me.
+
+[![Star us on GitHub](https://raw.githubusercontent.com/omkarcloud/google-maps-scraper/master/screenshots/star-us.png)](https://github.com/omkarcloud/ashby-scraper)

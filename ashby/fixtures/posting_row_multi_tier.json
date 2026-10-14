@@ -1,0 +1,313 @@
+{
+ "id": "86a60834-ba64-484d-9658-afa1bc97a957",
+ "title": "Mid Market Account Executive - EMEA (French Speaking)",
+ "department": "Sales",
+ "team": "Sales",
+ "employmentType": "FullTime",
+ "location": "France",
+ "shouldDisplayCompensationOnJobPostings": true,
+ "secondaryLocations": [
+  {
+   "location": "United Kingdom",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "",
+     "addressCountry": "United Kingdom",
+     "addressLocality": ""
+    }
+   }
+  },
+  {
+   "location": "Belgium",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "",
+     "addressCountry": "Belgium",
+     "addressLocality": ""
+    }
+   }
+  },
+  {
+   "location": "Germany",
+   "address": {
+    "postalAddress": {
+     "addressCountry": "Germany",
+     "addressLocality": ""
+    }
+   }
+  },
+  {
+   "location": "Switzerland",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "",
+     "addressCountry": "Switzerland",
+     "addressLocality": ""
+    }
+   }
+  },
+  {
+   "location": "Ireland",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "",
+     "addressCountry": "Ireland",
+     "addressLocality": ""
+    }
+   }
+  },
+  {
+   "location": "Austria",
+   "address": {
+    "postalAddress": {
+     "addressCountry": "Austria"
+    }
+   }
+  },
+  {
+   "location": "Spain",
+   "address": {
+    "postalAddress": {
+     "addressCountry": "Spain"
+    }
+   }
+  },
+  {
+   "location": "Stuttgart",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Baden-Wurttemberg",
+     "addressCountry": "Germany",
+     "addressLocality": "Stuttgart"
+    }
+   }
+  },
+  {
+   "location": "Berlin",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "",
+     "addressCountry": "Germany",
+     "addressLocality": "Berlin"
+    }
+   }
+  }
+ ],
+ "publishedAt": "2026-09-08T16:27:26.694+00:00",
+ "isListed": true,
+ "isRemote": true,
+ "workplaceType": "Remote",
+ "address": {
+  "postalAddress": {
+   "addressRegion": "",
+   "addressCountry": "France",
+   "addressLocality": ""
+  }
+ },
+ "jobUrl": "https://jobs.ashbyhq.com/ashby/86a60834-ba64-484d-9658-afa1bc97a957",
+ "applyUrl": "https://jobs.ashbyhq.com/ashby/86a60834-ba64-484d-9658-afa1bc97a957/application",
+ "descriptionHtml": "<h2><strong>Why Join Sales at Ashby</strong></h2><p style=\"min-height:1.5em\">Sales at Ashby is a unique opportunity to sell a <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.ashbyhq.com/customers\"><u>product customers genuinely love</u></a> during an AI-fueled market expansio",
+ "descriptionPlain": "WHY JOIN SALES AT ASHBY\n\nSales at Ashby is a unique opportunity to sell a product customers genuinely love https://www.ashbyhq.com/customers during an AI-fueled market expansion. Over 5,000 companies ",
+ "compensation": {
+  "compensationTierSummary": "€110K – €195.5K • Offers Equity • Offers Commission • Multiple Ranges",
+  "scrapeableCompensationSalarySummary": "€110K - €195.5K",
+  "compensationTiers": [
+   {
+    "id": "578bf152-5d8a-48d4-8fc5-658664165b71",
+    "tierSummary": "OTE €144.5K – €195.5K • Offers Equity • Offers Commission",
+    "title": "EMEA Tier 1 - Remote",
+    "additionalInformation": null,
+    "components": [
+     {
+      "id": "5b09c7b6-efde-4f66-85f6-ecb6cfe29980",
+      "summary": "OTE €144.5K – €195.5K",
+      "compensationType": "Salary",
+      "interval": "1 YEAR",
+      "currencyCode": "EUR",
+      "minValue": 144500,
+      "maxValue": 195500
+     },
+     {
+      "id": "659f2f29-2e52-4d0c-8b4c-51727268a659",
+      "summary": "Offers Commission",
+      "compensationType": "Commission",
+      "interval": "1 YEAR",
+      "currencyCode": "EUR",
+      "minValue": null,
+      "maxValue": null
+     },
+     {
+      "id": "3376fe86-7d18-47ef-acf7-0da9f67d78bc",
+      "summary": "Offers Equity",
+      "compensationType": "EquityPercentage",
+      "interval": "NONE",
+      "currencyCode": null,
+      "minValue": null,
+      "maxValue": null
+     }
+    ]
+   },
+   {
+    "id": "dd41799a-43df-449c-ac68-fd6044ced3d3",
+    "tierSummary": "OTE €127.5K – €172.5K • Offers Equity • Offers Commission",
+    "title": "EMEA Tier 2 - Remote",
+    "additionalInformation": null,
+    "components": [
+     {
+      "id": "a7d5af1a-2692-4e9d-96f4-4e5267dab1a0",
+      "summary": "Offers Commission",
+      "compensationType": "Commission",
+      "interval": "1 YEAR",
+      "currencyCode": "EUR",
+      "minValue": null,
+      "maxValue": null
+     },
+     {
+      "id": "77245e6e-9a5c-4511-8667-13b4e072944e",
+      "summary": "Offers Equity",
+      "compensationType": "EquityPercentage",
+      "interval": "NONE",
+      "currencyCode": null,
+      "minValue": null,
+      "maxValue": null
+     },
+     {
+      "id": "47ae4a45-026a-45b9-b857-96fbc74a28b6",
+      "summary": "OTE €127.5K – €172.5K",
+      "compensationType": "Salary",
+      "interval": "1 YEAR",
+      "currencyCode": "EUR",
+      "minValue": 127500,
+      "maxValue": 172500
+     }
+    ]
+   },
+   {
+    "id": "238f8e26-e75c-4ad6-910f-90127a2a9619",
+    "tierSummary": "OTE €110K – €149.5K • Offers Equity • Offers Commission",
+    "title": "EMEA Tier 3 - Remote",
+    "additionalInformation": null,
+    "components": [
+     {
+      "id": "b8121303-1856-416c-882b-2ae3e5b41b95",
+      "summary": "Offers Commission",
+      "compensationType": "Commission",
+      "interval": "1 YEAR",
+      "currencyCode": "EUR",
+      "minValue": null,
+      "maxValue": null
+     },
+     {
+      "id": "692a5c75-70ee-4bfb-81da-d20a5eb9a63f",
+      "summary": "Offers Equity",
+      "compensationType": "EquityPercentage",
+      "interval": "NONE",
+      "currencyCode": null,
+      "minValue": null,
+      "maxValue": null
+     },
+     {
+      "id": "85eeb725-0cd4-463e-af57-6505a6fbc78c",
+      "summary": "OTE €110K – €149.5K",
+      "compensationType": "Salary",
+      "interval": "1 YEAR",
+      "currencyCode": "EUR",
+      "minValue": 110000,
+      "maxValue": 149500
+     }
+    ]
+   },
+   {
+    "id": "9ea38d26-3c52-4b8e-b8bf-6537c71dd8d6",
+    "tierSummary": "OTE £144.5K – £195.5K • Offers Equity • Offers Commission",
+    "title": "UK Tier 1 - Remote",
+    "additionalInformation": null,
+    "components": [
+     {
+      "id": "c2900ca4-73d0-4d4e-b247-687d70ef0273",
+      "summary": "OTE £144.5K – £195.5K",
+      "compensationType": "Salary",
+      "interval": "1 YEAR",
+      "currencyCode": "GBP",
+      "minValue": 144500,
+      "maxValue": 195500
+     },
+     {
+      "id": "e19ba716-cd5d-4b92-8343-7a70141546cc",
+      "summary": "Offers Commission",
+      "compensationType": "Commission",
+      "interval": "1 YEAR",
+      "currencyCode": "GBP",
+      "minValue": null,
+      "maxValue": null
+     },
+     {
+      "id": "9a8abd06-5486-4818-9804-54ac60bbb87a",
+      "summary": "Offers Equity",
+      "compensationType": "EquityPercentage",
+      "interval": "NONE",
+      "currencyCode": null,
+      "minValue": null,
+      "maxValue": null
+     }
+    ]
+   },
+   {
+    "id": "d1411b81-f2c3-487e-baf9-e70f37d91ac1",
+    "tierSummary": "OTE £127.5K – £172.5K • Offers Equity • Offers Commission",
+    "title": "UK Tier 2 - Remote",
+    "additionalInformation": null,
+    "components": [
+     {
+      "id": "f101a32a-537d-408b-b7bf-f945cfb2f906",
+      "summary": "Offers Commission",
+      "compensationType": "Commission",
+      "interval": "1 YEAR",
+      "currencyCode": "GBP",
+      "minValue": null,
+      "maxValue": null
+     },
+     {
+      "id": "617c392f-dfba-4f15-becd-4caf1584eda3",
+      "summary": "Offers Equity",
+      "compensationType": "EquityPercentage",
+      "interval": "NONE",
+      "currencyCode": null,
+      "minValue": null,
+      "maxValue": null
+     },
+     {
+      "id": "6c767299-d44d-48fb-856e-bc89e7e9bc22",
+      "summary": "OTE £127.5K – £172.5K",
+      "compensationType": "Salary",
+      "interval": "1 YEAR",
+      "currencyCode": "GBP",
+      "minValue": 127500,
+      "maxValue": 172500
+     }
+    ]
+   }
+  ],
+  "summaryComponents": [
+   {
+    "minValue": 110000,
+    "maxValue": 195500,
+    "currencyCode": "EUR",
+    "interval": "1 YEAR",
+    "compensationType": "Salary"
+   },
+   {
+    "compensationType": "Commission",
+    "minValue": null,
+    "maxValue": null,
+    "interval": "1 YEAR"
+   },
+   {
+    "compensationType": "EquityPercentage",
+    "minValue": null,
+    "maxValue": null,
+    "interval": "1 YEAR"
+   }
+  ]
+ }
+}

@@ -1,0 +1,349 @@
+{
+ "__typename": "JobPostingDetails",
+ "id": "34413f8d-26bf-4bbc-8ade-eb309a0e2245",
+ "title": " Security Engineer, Cloud",
+ "publishedDate": "2026-04-07",
+ "departmentName": "Engineering",
+ "departmentExternalName": "Engineering",
+ "locationName": "New York, NY (HQ)",
+ "locationAddress": null,
+ "workplaceType": "Hybrid",
+ "employmentType": "FullTime",
+ "descriptionHtml": "<h1><strong>About Ramp</strong></h1><p style=\"min-height:1.5em\">Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.</p><p style=\"min-height:1.5em\">The problems are high-stakes, data-dense, and unforgiving.</p><p style=\"min-height:1.5em\">We hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and</p>",
+ "isListed": true,
+ "isConfidential": false,
+ "teamNames": [
+  "Engineering",
+  "Software Engineering - Industry",
+  "Backend"
+ ],
+ "secondaryLocationNames": [
+  "Remote (Canada)",
+  "Remote (US)",
+  "Miami, FL"
+ ],
+ "compensationTierSummary": "$211.4K – $290.6K • Offers Equity",
+ "applicationDeadline": null,
+ "compensationTierGuideUrl": null,
+ "scrapeableCompensationSalarySummary": "$211.4K - $290.6K",
+ "compensationPhilosophyHtml": "<p style=\"min-height:1.5em\">The final compensation will depend on the location and level at which the candidate is hired.</p>",
+ "applicationLimitCalloutHtml": null,
+ "shouldAskForTextingConsent": true,
+ "shouldAskForWhatsAppConsent": false,
+ "candidateTextingPrivacyPolicyUrl": "https://ramp.com/legal/privacy-terms/privacy-terms/applicant-privacy-notice#b-communication-preferences",
+ "candidateTextingTermsAndConditionsUrl": "https://ramp.com/legal/customer-terms/additional-customer-terms/text-and-sms-addendum",
+ "legalEntityNameForTextingConsent": "Ramp Business Corporation",
+ "automatedProcessingLegalNotice": null,
+ "surveyForms": [],
+ "recaptchaAction": "job_apply_low",
+ "compensationTiers": [
+  {
+   "__typename": "JobPostingCompensationTiers",
+   "id": "5f7a903e-36e4-492c-ac09-f2745d717daa",
+   "title": null,
+   "tierSummary": "$211.4K – $290.6K • Offers Equity"
+  }
+ ],
+ "applicationForm": {
+  "__typename": "FormRender",
+  "id": "2aef3eb3-a402-4a29-88eb-1b1120d7a9c0",
+  "errorMessages": [],
+  "formErrors": [],
+  "sourceFormDefinitionId": "{\"kind\":\"CompositeFormDefinitionId-JobPostingApplicationFormV2\",\"formDefinitionId\":\"2aa0344e-58ac-475f-bc5b-7ebefe954fed\",\"jobPostingId\":\"34413f8d-26bf-4bbc-8ade-eb309a0e2245\",\"jobBoardSuperType\":\"External\"}",
+  "formControls": [
+   {
+    "__typename": "FormControl",
+    "identifier": "2e2ff5d9-79de-48b0-8a3f-fdb8fcff792e",
+    "title": "Submit"
+   }
+  ],
+  "sections": [
+   {
+    "__typename": "FormSectionRender",
+    "title": null,
+    "descriptionHtml": null,
+    "isHidden": null,
+    "fieldEntries": [
+     {
+      "__typename": "FormFieldEntry",
+      "id": "2aef3eb3-a402-4a29-88eb-1b1120d7a9c0__systemfield_name",
+      "field": {
+       "id": "4df9e669-c986-46c9-aa38-831354331195",
+       "path": "_systemfield_name",
+       "humanReadablePath": "Name",
+       "title": "Legal Name",
+       "isNullable": false,
+       "isPrivate": false,
+       "isDeactivated": false,
+       "isMany": false,
+       "metadata": {},
+       "type": "String",
+       "__autoSerializationID": "StringField"
+      },
+      "fieldValue": null,
+      "isRequired": true,
+      "descriptionHtml": null,
+      "isHidden": null
+     },
+     {
+      "__typename": "FormFieldEntry",
+      "id": "2aef3eb3-a402-4a29-88eb-1b1120d7a9c0__systemfield_email",
+      "field": {
+       "id": "2768d05c-1d58-4bc5-81cc-aa3e4bb7d11b",
+       "path": "_systemfield_email",
+       "humanReadablePath": "Email",
+       "title": "Email",
+       "isNullable": false,
+       "isPrivate": false,
+       "isDeactivated": false,
+       "isMany": false,
+       "metadata": {},
+       "type": "Email",
+       "__autoSerializationID": "EmailField"
+      },
+      "fieldValue": null,
+      "isRequired": true,
+      "descriptionHtml": null,
+      "isHidden": null
+     },
+     {
+      "__typename": "FormFieldEntry",
+      "id": "2aef3eb3-a402-4a29-88eb-1b1120d7a9c0_4b71793a-c95c-4cc9-9d06-02e6ef7c5777",
+      "field": {
+       "id": "4b71793a-c95c-4cc9-9d06-02e6ef7c5777",
+       "path": "4b71793a-c95c-4cc9-9d06-02e6ef7c5777",
+       "humanReadablePath": "",
+       "title": "Phone",
+       "isNullable": false,
+       "isPrivate": false,
+       "isDeactivated": false,
+       "isMany": false,
+       "metadata": {},
+       "type": "Phone",
+       "__autoSerializationID": "PhoneField"
+      },
+      "fieldValue": null,
+      "isRequired": true,
+      "descriptionHtml": null,
+      "isHidden": null
+     },
+     {
+      "__typename": "FormFieldEntry",
+      "id": "2aef3eb3-a402-4a29-88eb-1b1120d7a9c0__systemfield_location",
+      "field": {
+       "id": "19ced6ed-d4c0-44f6-80e5-41453d9cc813",
+       "path": "_systemfield_location",
+       "humanReadablePath": "Location",
+       "title": "Where do you plan on working from (for payroll tax purposes)?",
+       "isNullable": false,
+       "isPrivate": false,
+       "isDeactivated": false,
+       "isMany": false,
+       "metadata": {},
+       "type": "Location",
+       "locationTypes": [
+        "Country",
+        "Region",
+        "City"
+       ],
+       "__autoSerializationID": "LocationField"
+      },
+      "fieldValue": null,
+      "isRequired": true,
+      "descriptionHtml": null,
+      "isHidden": null
+     },
+     {
+      "__typename": "FormFieldEntry",
+      "id": "2aef3eb3-a402-4a29-88eb-1b1120d7a9c0__systemfield_resume",
+      "field": {
+       "id": "dc53780f-e594-4e90-920b-578adeb8b066",
+       "path": "_systemfield_resume",
+       "humanReadablePath": "Resume",
+       "title": "Resume",
+       "isNullable": false,
+       "isPrivate": false,
+       "isDeactivated": false,
+       "isMany": false,
+       "metadata": {},
+       "type": "File",
+       "__autoSerializationID": "FileField"
+      },
+      "fieldValue": null,
+      "isRequired": true,
+      "descriptionHtml": null,
+      "isHidden": null
+     },
+     {
+      "__typename": "FormFieldEntry",
+      "id": "2aef3eb3-a402-4a29-88eb-1b1120d7a9c0_dc915b3a-c535-49df-abd6-dc8f3ddf6728",
+      "field": {
+       "id": "dc915b3a-c535-49df-abd6-dc8f3ddf6728",
+       "path": "dc915b3a-c535-49df-abd6-dc8f3ddf6728",
+       "humanReadablePath": "",
+       "title": "LinkedIn Profile",
+       "isNullable": false,
+       "isPrivate": false,
+       "isDeactivated": false,
+       "isMany": false,
+       "metadata": {},
+       "type": "String",
+       "__autoSerializationID": "StringField"
+      },
+      "fieldValue": null,
+      "isRequired": true,
+      "descriptionHtml": null,
+      "isHidden": null
+     },
+     {
+      "__typename": "FormFieldEntry",
+      "id": "2aef3eb3-a402-4a29-88eb-1b1120d7a9c0_6686ff1d-a7f9-484b-af56-4c32ff8cd99f",
+      "field": {
+       "id": "6686ff1d-a7f9-484b-af56-4c32ff8cd99f",
+       "path": "6686ff1d-a7f9-484b-af56-4c32ff8cd99f",
+       "humanReadablePath": "",
+       "title": "Cover Letter",
+       "isNullable": false,
+       "isPrivate": false,
+       "isDeactivated": false,
+       "isMany": false,
+       "metadata": {},
+       "type": "File",
+       "__autoSerializationID": "FileField"
+      },
+      "fieldValue": null,
+      "isRequired": false,
+      "descriptionHtml": null,
+      "isHidden": null
+     },
+     {
+      "__typename": "FormFieldEntry",
+      "id": "2aef3eb3-a402-4a29-88eb-1b1120d7a9c0_3080cfba-13cc-4441-94b9-159da1278e66",
+      "field": {
+       "id": "8d13e1c3-375a-4462-a8e1-847bf2a8e0df",
+       "path": "3080cfba-13cc-4441-94b9-159da1278e66",
+       "humanReadablePath": "",
+       "title": "Do you have a minimum of 7 years of experience building software? ",
+       "isNullable": false,
+       "isPrivate": false,
+       "isDeactivated": false,
+       "isMany": false,
+       "metadata": {},
+       "type": "Boolean",
+       "__autoSerializationID": "BooleanField"
+      },
+      "fieldValue": null,
+      "isRequired": true,
+      "descriptionHtml": null,
+      "isHidden": null
+     },
+     {
+      "__typename": "FormFieldEntry",
+      "id": "2aef3eb3-a402-4a29-88eb-1b1120d7a9c0_66d3b6e2-6cef-4cf8-9193-87200193ab98",
+      "field": {
+       "id": "04600fac-aa6b-401a-881b-b534fafda8e5",
+       "path": "66d3b6e2-6cef-4cf8-9193-87200193ab98",
+       "humanReadablePath": "",
+       "title": "Do you have a minimum of  5 years of experience building in AWS (with Terraform)?",
+       "isNullable": false,
+       "isPrivate": false,
+       "isDeactivated": false,
+       "isMany": false,
+       "metadata": {},
+       "type": "Boolean",
+       "__autoSerializationID": "BooleanField"
+      },
+      "fieldValue": null,
+      "isRequired": true,
+      "descriptionHtml": null,
+      "isHidden": null
+     },
+     {
+      "__typename": "FormFieldEntry",
+      "id": "2aef3eb3-a402-4a29-88eb-1b1120d7a9c0_0086e069-bc0c-467b-8d38-c3f023146e79",
+      "field": {
+       "id": "96102458-4aad-4f14-92fb-ca786a9ec53f",
+       "path": "0086e069-bc0c-467b-8d38-c3f023146e79",
+       "humanReadablePath": "",
+       "title": "Please elaborate on your experience building software in AWS (with Terraform)",
+       "isNullable": false,
+       "isPrivate": false,
+       "isDeactivated": false,
+       "isMany": false,
+       "metadata": {},
+       "type": "LongText",
+       "__autoSerializationID": "LongTextField"
+      },
+      "fieldValue": null,
+      "isRequired": true,
+      "descriptionHtml": null,
+      "isHidden": null
+     },
+     {
+      "__typename": "FormFieldEntry",
+      "id": "2aef3eb3-a402-4a29-88eb-1b1120d7a9c0_c88f753e-ac4c-461c-81ec-3495a671c5bd",
+      "field": {
+       "id": "1a79b113-2482-4fcc-982d-9d30708fdd49",
+       "path": "c88f753e-ac4c-461c-81ec-3495a671c5bd",
+       "humanReadablePath": "",
+       "title": "Here's some text encoded in a common format. Figure out the correct secret and submit it in the field below. IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoKJycnCktlZXAgdXMgb3V0IG9mIGdvb2dsZSBzZWFyY2ggcmVzdWx0cy4uCgokIG9kIC1kIC9kZXYvdXJhbmRvbSB8IGhlYWQKMDAwMDAwMCAgICAgNjAyMTUgICAyODc3OCAgIDI5MjI3ICAgMjg1NDggICA2MjY4NiAgIDQ1MTcxICAgIDc4MjYgICA0ODc2NgowMDAwMDIwICAgICAxNzExOCAgIDE1MjI1ICAgMTI4NTIgICAzNDc4MSAgIDMxOTU1ICAgMTkwODcgICAzOTU2MyAgIDQzNjE0CjAwMDAwNDAgICAgICA2NzEwICAgMzg1MTUgICAxNDU3MyAgIDY0MDg3ICAgMTcwMjYgICAyNTU5OCAgIDQyOTEzICAgMTQyMDkKMDAwMDA2MCAgICAgMTA3MjMgICAzMTMwNyAgIDE5MDcxICAgMTQ3OTggICAgMjQ2MiAgIDQ2MjUzICAgMzU2MjYgICAzMjQzNgowMDAwMTAwICAgICAgMTczOSAgIDI3NzEyICAgIDU2NjcgICAxMjIxMiAgIDQ3MDc3ICAgNDE3MjIgICA1NDQ1MiAgIDM4NDYxCjAwMDAxMjAgICAgICA0ODE2ICAgMTUwMTQgICAyODYyMyAgIDEwOTI4ICAgNTQwMjggICA2NDUyMyAgIDU0NjMyICAgNTQxODcKMDAwMDE0MCAgICAgNjE2MzEgICA1NDQ5OSAgIDE4MzA3ICAgIDU1MTQgICA1MDc0MyAgIDUwNTkxICAgMjUxNzIgICA1NDAxOAowMDAwMTYwICAgICAzMTk5MCAgIDI2MjQ4ICAgIDQzODMgICA0NjQ1MiAgIDQyMTU2ICAgNjIzMjAgICA1MTA1MiAgIDI4NjIxCjAwMDAyMDAgICAgIDI3MjI2ICAgNjUyOTYgICA1NjMwNSAgIDMzMzc1ICAgIDQ4MTMgICA0MjI4MyAgIDE5OTgwICAgIDE5MjIKMDAwMDIyMCAgICAgNTcwNjEgICAyOTMyMiAgIDI3MDczICAgNjQ5ODYgICAxNTIxOSAgIDI2MjM0ICAgMjQxMDAgICAyMTIwNAonJycKCicnJwpDb3B5IHRoaXMgZmlsZSBhbmQgcnVuIGBwYnBhc3RlIHwgYmFzZTY0YCB0byBnZW5lcmF0ZSBjaGFsbGVuZ2UgdGV4dC4gQ29waW91cwp3aGl0ZSBzcGFjZSBpcyBhdCB0aGUgYm90dG9tIG9mIHRoZSBmaWxlIHRvIGVuc3VyZSB0cmFpbGluZyBgPT1gIGFuZCBoaW50IGF0CmJhc2U2NC4KJycnCgppbXBvcnQgY29kZWNzCmltcG9ydCBzdHJpbmcKaW1wb3J0IHN5cwppbXBvcnQgdGltZQoKZnJvbSBjcnlwdG9ncmFwaHkuaGF6bWF0LmJhY2tlbmRzIGltcG9ydCBkZWZhdWx0X2JhY2tlbmQKZnJvbSBjcnlwdG9ncmFwaHkuaGF6bWF0LnByaW1pdGl2ZXMuaGFzaGVzIGltcG9ydCBTSEExCmZyb20gY3J5cHRvZ3JhcGh5Lmhhem1hdC5wcmltaXRpdmVzLnR3b2ZhY3Rvci50b3RwIGltcG9ydCBUT1RQCgoKT05FX1dFRUtfSU5fU0VDT05EUyA9IDYwNF84MDAKCgpkZWYgZ2VuZXJhdGVfc2VjcmV0KCk6CiAgICB0b3RwID0gVE9UUCgKICAgICAgICBrZXk9Y29kZWNzLmVuY29kZShzdHJpbmcuYXNjaWlfbGV0dGVycywgZW5jb2Rpbmc9InV0Zi04IiksCiAgICAgICAgbGVuZ3RoPTgsCiAgICAgICAgYWxnb3JpdGhtPVNIQTEoKSwKICAgICAgICB0aW1lX3N0ZXA9T05FX1dFRUtfSU5fU0VDT05EUywKICAgICAgICBiYWNrZW5kPWRlZmF1bHRfYmFja2VuZCgpLAogICAgKQogICAgc2VlZCA9IGludCh0aW1lLnRpbWUoKSkKICAgIHRva2VuID0gY29kZWNzLmRlY29kZSh0b3RwLmdlbmVyYXRlKHNlZWQpLCBlbmNvZGluZz0idXRmLTgiKQogICAgcmV0dXJuIGYie3Rva2VufS17c2VlZH0iCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIHN5cy5zdGRvdXQud3JpdGUoCiAgICAgICAgZiJQbGVhc2UgaGVhZCB0byBodHRwczovL3JhbXAuY29tL2NhcmVlcnMgYW5kIHVzZSB0aGlzIHNlY3JldCB3aGVuICIKICAgICAgICBmInlvdSBhcHBseToge2dlbmVyYXRlX3NlY3JldCgpfVxuIgogICAgKQoKCg==",
+       "isNullable": false,
+       "isPrivate": false,
+       "isDeactivated": false,
+       "isMany": false,
+       "metadata": {},
+       "type": "LongText",
+       "__autoSerializationID": "LongTextField"
+      },
+      "fieldValue": null,
+      "isRequired": true,
+      "descriptionHtml": null,
+      "isHidden": null
+     },
+     {
+      "__typename": "FormFieldEntry",
+      "id": "2aef3eb3-a402-4a29-88eb-1b1120d7a9c0_3285cb76-c9b1-4ac1-92ce-c4059b19e4a0",
+      "field": {
+       "id": "71b03b25-d7a5-4eaa-bd37-82332943d859",
+       "path": "3285cb76-c9b1-4ac1-92ce-c4059b19e4a0",
+       "humanReadablePath": "",
+       "title": "In the above question, we ask you to figure out a secret to prove two things: (1) that you are not a bot auto-applying to the role and (2) that you are able to read and interact with code. With those goals in mind, what are the security properties (if any) of the resulting secret? Do we achieve our goals? How could we do so more effectively?",
+       "isNullable": false,
+       "isPrivate": false,
+       "isDeactivated": false,
+       "isMany": false,
+       "metadata": {},
+       "type": "LongText",
+       "__autoSerializationID": "LongTextField"
+      },
+      "fieldValue": null,
+      "isRequired": true,
+      "descriptionHtml": null,
+      "isHidden": null
+     },
+     {
+      "__typename": "FormFieldEntry",
+      "id": "2aef3eb3-a402-4a29-88eb-1b1120d7a9c0_3e666775-f7f9-4eab-bbdb-1a3bb13bc8a4",
+      "field": {
+       "id": "5a2da97b-53d5-41e6-ba9b-a4bafc473c2c",
+       "path": "3e666775-f7f9-4eab-bbdb-1a3bb13bc8a4",
+       "humanReadablePath": "",
+       "title": "We believe exceptional performance in one area is a good indication of performance in other areas. Do you have any examples of exceptional performance you want to highlight?",
+       "isNullable": false,
+       "isPrivate": false,
+       "isDeactivated": false,
+       "isMany": false,
+       "metadata": {},
+       "type": "String",
+       "__autoSerializationID": "StringField"
+      },
+      "fieldValue": null,
+      "isRequired": false,
+      "descriptionHtml": null,
+      "isHidden": null
+     }
+    ]
+   }
+  ]
+ }
+}

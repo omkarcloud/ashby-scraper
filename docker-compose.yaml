@@ -1,0 +1,10 @@
+services:
+  ashby-scraper:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      # Optional — Ashby has no bot protection, so leave this unset.
+      # - ASHBY_PROXY=http://user:pass@host:port

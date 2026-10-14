@@ -1,0 +1,392 @@
+{
+ "teams": [
+  {
+   "__typename": "Team",
+   "id": "baa9ccf5-274b-43e7-a810-1b50545f0745",
+   "name": "Sales",
+   "parentTeamId": null
+  },
+  {
+   "__typename": "Team",
+   "id": "d8dc541b-72a7-4bb8-86b2-22993312a38d",
+   "name": "Account Executive",
+   "parentTeamId": "baa9ccf5-274b-43e7-a810-1b50545f0745"
+  },
+  {
+   "__typename": "Team",
+   "id": "0bba5d0c-788c-4076-bf20-c0b381d1efa5",
+   "name": "AE - Mid-Market",
+   "parentTeamId": "d8dc541b-72a7-4bb8-86b2-22993312a38d"
+  },
+  {
+   "__typename": "Team",
+   "id": "edf939ac-1369-4888-a6c6-f253c5cbb0a0",
+   "name": "Account Manager",
+   "parentTeamId": "baa9ccf5-274b-43e7-a810-1b50545f0745"
+  },
+  {
+   "__typename": "Team",
+   "id": "451a33f8-dd7a-4131-be6d-66e7d010b540",
+   "name": "Business Development",
+   "parentTeamId": null
+  },
+  {
+   "__typename": "Team",
+   "id": "73a9435f-f50f-4a1b-8507-46af59337c8a",
+   "name": "Business Development",
+   "parentTeamId": "451a33f8-dd7a-4131-be6d-66e7d010b540"
+  },
+  {
+   "__typename": "Team",
+   "id": "289031bb-4796-4905-8f71-639c4e7ec7a3",
+   "name": "AI Solutions",
+   "parentTeamId": "73a9435f-f50f-4a1b-8507-46af59337c8a"
+  },
+  {
+   "__typename": "Team",
+   "id": "e9877d64-61b1-4b37-8518-65af0431cd09",
+   "name": "Engineering",
+   "parentTeamId": null
+  },
+  {
+   "__typename": "Team",
+   "id": "c2ba2f91-5d24-4e27-b6d6-234ba7268b3d",
+   "name": "Software Engineering - Industry",
+   "parentTeamId": "e9877d64-61b1-4b37-8518-65af0431cd09"
+  },
+  {
+   "__typename": "Team",
+   "id": "be8bdfd4-4d51-483f-892b-20c0034c841b",
+   "name": "Applied AI",
+   "parentTeamId": "c2ba2f91-5d24-4e27-b6d6-234ba7268b3d"
+  },
+  {
+   "__typename": "Team",
+   "id": "af4048ce-03f4-46aa-a1c0-9cb0d5359ff3",
+   "name": "Frontend",
+   "parentTeamId": "c2ba2f91-5d24-4e27-b6d6-234ba7268b3d"
+  },
+  {
+   "__typename": "Team",
+   "id": "48216506-fcbc-461e-ac1d-9dc2e11dfc99",
+   "name": "Data",
+   "parentTeamId": null
+  },
+  {
+   "__typename": "Team",
+   "id": "03cc9b5c-0bde-4e3a-b407-6ed314e9ba18",
+   "name": "Data & Analytics",
+   "parentTeamId": "48216506-fcbc-461e-ac1d-9dc2e11dfc99"
+  },
+  {
+   "__typename": "Team",
+   "id": "290811ba-01c0-45eb-b97f-fe6f06c2d591",
+   "name": "Emerging Talent - Data",
+   "parentTeamId": "03cc9b5c-0bde-4e3a-b407-6ed314e9ba18"
+  },
+  {
+   "__typename": "Team",
+   "id": "6028684d-b3bc-4708-abd0-6964ab03e969",
+   "name": "People & Talent",
+   "parentTeamId": null
+  },
+  {
+   "__typename": "Team",
+   "id": "918f335f-fc6a-435f-8e85-ff6059166f97",
+   "name": "Finance",
+   "parentTeamId": null
+  },
+  {
+   "__typename": "Team",
+   "id": "d864d639-3afa-4949-8613-a926a3f5b7ff",
+   "name": "Strategic Finance",
+   "parentTeamId": "918f335f-fc6a-435f-8e85-ff6059166f97"
+  },
+  {
+   "__typename": "Team",
+   "id": "2b21d641-5f4a-49c1-8d84-7ebcc2b5be3d",
+   "name": "Backend",
+   "parentTeamId": "c2ba2f91-5d24-4e27-b6d6-234ba7268b3d"
+  },
+  {
+   "__typename": "Team",
+   "id": "dbfe22d7-e3bf-4074-993f-4be59474786d",
+   "name": "SDR",
+   "parentTeamId": "baa9ccf5-274b-43e7-a810-1b50545f0745"
+  },
+  {
+   "__typename": "Team",
+   "id": "7222e9b2-7853-4750-943d-6cbf27d16034",
+   "name": "SDR",
+   "parentTeamId": "dbfe22d7-e3bf-4074-993f-4be59474786d"
+  },
+  {
+   "__typename": "Team",
+   "id": "93b764ab-1b52-4be0-a4f4-ee318b0d4a16",
+   "name": "Channel Sales",
+   "parentTeamId": "baa9ccf5-274b-43e7-a810-1b50545f0745"
+  },
+  {
+   "__typename": "Team",
+   "id": "49465194-5c69-43eb-aef1-aafa68e31745",
+   "name": "Risk",
+   "parentTeamId": null
+  },
+  {
+   "__typename": "Team",
+   "id": "77bb8e7c-7372-4103-b00d-2519c53b6c31",
+   "name": "Customer Success Management",
+   "parentTeamId": "baa9ccf5-274b-43e7-a810-1b50545f0745"
+  },
+  {
+   "__typename": "Team",
+   "id": "9de0cb75-c0c9-4604-b109-5307e3fc8248",
+   "name": "Customer Experience",
+   "parentTeamId": null
+  },
+  {
+   "__typename": "Team",
+   "id": "d3372b6f-d0a4-472f-bd94-6365bbd0746b",
+   "name": "Customer Experience",
+   "parentTeamId": "9de0cb75-c0c9-4604-b109-5307e3fc8248"
+  },
+  {
+   "__typename": "Team",
+   "id": "0ec17e73-8d49-435b-a7d8-3c8db1824fb4",
+   "name": "CX Frontline",
+   "parentTeamId": "d3372b6f-d0a4-472f-bd94-6365bbd0746b"
+  },
+  {
+   "__typename": "Team",
+   "id": "9563e79e-148f-4f16-9766-4db85aded8b2",
+   "name": "Design",
+   "parentTeamId": null
+  },
+  {
+   "__typename": "Team",
+   "id": "e904206e-321f-43f4-88e7-295af30da24c",
+   "name": "Design",
+   "parentTeamId": "9563e79e-148f-4f16-9766-4db85aded8b2"
+  },
+  {
+   "__typename": "Team",
+   "id": "7d8f568b-2daa-4a4c-ad02-199d3f68690f",
+   "name": "Marketing",
+   "parentTeamId": null
+  },
+  {
+   "__typename": "Team",
+   "id": "b0812e1d-0c58-45eb-b38e-58abcceee473",
+   "name": "Growth Marketing",
+   "parentTeamId": "7d8f568b-2daa-4a4c-ad02-199d3f68690f"
+  },
+  {
+   "__typename": "Team",
+   "id": "9397cb37-c5b3-42e5-868e-2bcaab675509",
+   "name": "CX Leadership",
+   "parentTeamId": "d3372b6f-d0a4-472f-bd94-6365bbd0746b"
+  },
+  {
+   "__typename": "Team",
+   "id": "aad07fe8-f503-41d8-bbfd-a94da8e6b733",
+   "name": "Executive Admin",
+   "parentTeamId": "6028684d-b3bc-4708-abd0-6964ab03e969"
+  },
+  {
+   "__typename": "Team",
+   "id": "48b14e50-16f8-4095-b6e0-922820555640",
+   "name": "Compliance",
+   "parentTeamId": null
+  },
+  {
+   "__typename": "Team",
+   "id": "511b0607-d5f9-46f9-910f-5b20d92db465",
+   "name": "Growth Engineering",
+   "parentTeamId": "e9877d64-61b1-4b37-8518-65af0431cd09"
+  },
+  {
+   "__typename": "Team",
+   "id": "07b8a32b-854f-445e-af41-04a10e80e170",
+   "name": "IT",
+   "parentTeamId": null
+  },
+  {
+   "__typename": "Team",
+   "id": "8dd01e87-be1b-471d-bb72-b072f7735368",
+   "name": "Product Marketing",
+   "parentTeamId": "7d8f568b-2daa-4a4c-ad02-199d3f68690f"
+  },
+  {
+   "__typename": "Team",
+   "id": "5506ea10-4689-4ea1-97fc-9f5dfb8ae06b",
+   "name": "Talent",
+   "parentTeamId": "6028684d-b3bc-4708-abd0-6964ab03e969"
+  },
+  {
+   "__typename": "Team",
+   "id": "160c11cd-e281-4a4b-905b-f61ec4ce028d",
+   "name": "Solutions Consulting",
+   "parentTeamId": "baa9ccf5-274b-43e7-a810-1b50545f0745"
+  },
+  {
+   "__typename": "Team",
+   "id": "83a44cc7-df95-4b72-91fe-86e0721643be",
+   "name": "Mobile",
+   "parentTeamId": "c2ba2f91-5d24-4e27-b6d6-234ba7268b3d"
+  },
+  {
+   "__typename": "Team",
+   "id": "fae08c1d-e4b1-4674-945d-69905a029190",
+   "name": "Product",
+   "parentTeamId": null
+  },
+  {
+   "__typename": "Team",
+   "id": "336e7203-fc0e-4c33-8bd6-1585d3e3bbbf",
+   "name": "Product Management",
+   "parentTeamId": "fae08c1d-e4b1-4674-945d-69905a029190"
+  },
+  {
+   "__typename": "Team",
+   "id": "87a16bce-84e8-4ccb-90ca-4ccdcdf10158",
+   "name": "Product Operations",
+   "parentTeamId": "fae08c1d-e4b1-4674-945d-69905a029190"
+  },
+  {
+   "__typename": "Team",
+   "id": "edef1226-d9ff-4e05-97c7-43b448cc8e30",
+   "name": "People & Talent Operations",
+   "parentTeamId": "6028684d-b3bc-4708-abd0-6964ab03e969"
+  },
+  {
+   "__typename": "Team",
+   "id": "a850ddd3-b8fe-420c-b08b-dea659410af8",
+   "name": "Legal",
+   "parentTeamId": null
+  },
+  {
+   "__typename": "Team",
+   "id": "c950465a-77bd-4a29-8fe9-d16e9aa71846",
+   "name": "Infrastructure ",
+   "parentTeamId": "c2ba2f91-5d24-4e27-b6d6-234ba7268b3d"
+  },
+  {
+   "__typename": "Team",
+   "id": "05d26e56-d375-483f-a29c-9616a34e4d91",
+   "name": "Dev API",
+   "parentTeamId": "c2ba2f91-5d24-4e27-b6d6-234ba7268b3d"
+  },
+  {
+   "__typename": "Team",
+   "id": "463fd214-a96c-4a22-b32f-46593b7a30cf",
+   "name": "Forward Deployed",
+   "parentTeamId": "c2ba2f91-5d24-4e27-b6d6-234ba7268b3d"
+  },
+  {
+   "__typename": "Team",
+   "id": "ee663007-0ef3-45c5-8604-29a121214a16",
+   "name": "Emerging Talent - SWE",
+   "parentTeamId": "e9877d64-61b1-4b37-8518-65af0431cd09"
+  },
+  {
+   "__typename": "Team",
+   "id": "6ebf225f-da13-4d6b-8963-74c9bc5afebc",
+   "name": "Security",
+   "parentTeamId": null
+  },
+  {
+   "__typename": "Team",
+   "id": "8615abb8-e8ed-495f-b3f8-8898c45421c2",
+   "name": "Security",
+   "parentTeamId": "6ebf225f-da13-4d6b-8963-74c9bc5afebc"
+  },
+  {
+   "__typename": "Team",
+   "id": "c30abbe4-416f-40e3-b674-698a559806fd",
+   "name": "IT Eng",
+   "parentTeamId": "8615abb8-e8ed-495f-b3f8-8898c45421c2"
+  },
+  {
+   "__typename": "Team",
+   "id": "9e7edad1-4ef3-4acf-949a-ef3403a57d64",
+   "name": "Travel",
+   "parentTeamId": "2b21d641-5f4a-49c1-8d84-7ebcc2b5be3d"
+  },
+  {
+   "__typename": "Team",
+   "id": "9c07de70-ecfc-40f2-9f3d-95b0dfd89eee",
+   "name": "Ramp Travel",
+   "parentTeamId": "9e7edad1-4ef3-4acf-949a-ef3403a57d64"
+  }
+ ],
+ "jobPostings": [
+  {
+   "__typename": "JobPostingBriefsWithIdsAndTeamId",
+   "id": "b39ceb08-a0a7-4f8b-a760-2fb88e209956",
+   "title": "Applied Scientist Intern",
+   "teamId": "290811ba-01c0-45eb-b97f-fe6f06c2d591",
+   "locationId": "727b4420-37ce-4db8-bd81-5404184bfd04",
+   "locationName": "New York, NY (HQ)",
+   "workplaceType": "Hybrid",
+   "employmentType": "Intern",
+   "secondaryLocations": [],
+   "compensationTierSummary": "$12.5K per month"
+  },
+  {
+   "__typename": "JobPostingBriefsWithIdsAndTeamId",
+   "id": "f564dcf9-9390-4a3f-896f-8047a5086040",
+   "title": "Mobile Engineer, Android",
+   "teamId": "83a44cc7-df95-4b72-91fe-86e0721643be",
+   "locationId": "727b4420-37ce-4db8-bd81-5404184bfd04",
+   "locationName": "New York, NY (HQ)",
+   "workplaceType": "Hybrid",
+   "employmentType": "FullTime",
+   "compensationTierSummary": "$189K – $330K • Offers Equity",
+   "secondaryLocations": [
+    {
+     "__typename": "JobPostingSecondaryLocation",
+     "locationId": "1bdc0c37-41b8-43da-af00-2eac23f816f6",
+     "locationName": "Remote (Canada)"
+    },
+    {
+     "__typename": "JobPostingSecondaryLocation",
+     "locationId": "3178e0cd-d087-4533-85df-48e9e3adbe65",
+     "locationName": "San Francisco, CA"
+    },
+    {
+     "__typename": "JobPostingSecondaryLocation",
+     "locationId": "66a057ec-d9ea-4656-9ff1-69ccbc500859",
+     "locationName": "Remote (US)"
+    }
+   ]
+  },
+  {
+   "__typename": "JobPostingBriefsWithIdsAndTeamId",
+   "id": "34413f8d-26bf-4bbc-8ade-eb309a0e2245",
+   "title": " Security Engineer, Cloud",
+   "teamId": "2b21d641-5f4a-49c1-8d84-7ebcc2b5be3d",
+   "locationId": "727b4420-37ce-4db8-bd81-5404184bfd04",
+   "locationName": "New York, NY (HQ)",
+   "workplaceType": "Hybrid",
+   "employmentType": "FullTime",
+   "compensationTierSummary": "$211.4K – $290.6K • Offers Equity",
+   "secondaryLocations": [
+    {
+     "__typename": "JobPostingSecondaryLocation",
+     "locationId": "1bdc0c37-41b8-43da-af00-2eac23f816f6",
+     "locationName": "Remote (Canada)"
+    },
+    {
+     "__typename": "JobPostingSecondaryLocation",
+     "locationId": "66a057ec-d9ea-4656-9ff1-69ccbc500859",
+     "locationName": "Remote (US)"
+    },
+    {
+     "__typename": "JobPostingSecondaryLocation",
+     "locationId": "edc884f1-bbc2-4d94-b30d-5ef1bc02db96",
+     "locationName": "Miami, FL"
+    }
+   ]
+  }
+ ]
+}
